@@ -83,7 +83,7 @@ function SerieFormPage() {
                                 id="inputRating" min="1" max="10" required />
                         </div>
                         <div className="mb-3">
-                            <label htmlFor="inputReleaseDate" className="form-label">Rating</label>
+                            <label htmlFor="inputReleaseDate" className="form-label">Release Date</label>
                             <input type="date" onChange={onChangeReleaseDate} className="form-control"
                                 id="inputReleaseDate" required />
                         </div>
